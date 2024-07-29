@@ -1,0 +1,133 @@
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+.navbar {
+  background-color: white;
+}
+
+nav {
+  height: 110px;
+}
+
+.nav-link {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.container-fluid {
+  width: 60%;
+  margin: 0;
+  margin-top: 1px;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-right: 20px; /* Add space between cards */
+  margin-bottom: 10px;
+  margin-left: 0px;
+  box-shadow: 0 5px 5px rgba(212, 185, 150, .5);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  color: white;
+  flex: 0 0 auto; /* Prevent cards from shrinking */
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  
+}
+
+.card img {
+
+  height: 200px; /* Fixed height for the image */
+  object-fit: 32; /* Ensure the whole image is visible */
+  width: 100%; /* Ensure the image takes up the full width */
+  
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dev {
+  color: rgb(245, 228, 39);
+  margin-left: 2.5%;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.title {
+  font-size: 14px;
+  padding-top: 10px;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rating {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+
+/* index.css */
+.navbar .dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.navbar .dropdown-toggle::after {
+  display: none; /* Remove the caret icon */
+}
+
+.navbar .dropdown-menu {
+  background-color: #343a40; /* Match the navbar bg-dark color */
+  border: none; /* Remove border */
+}
+
+.navbar .dropdown-item {
+  color: white;
+}
+
+.navbar .dropdown-item:hover, 
+.navbar .dropdown-item:focus {
+  background-color: #495057; /* Darker shade for hover */
+  color: white;
+}
+
+/* index.css */
+.btn-bookmark {
+  border: none; /* Remove default border */
+  background: none; /* Remove default background */
+  cursor: pointer; /* Change cursor to pointer */
+  color: white; /* Adjust icon color */
+  font-size: 1.5rem; /* Adjust icon size */
+  margin-top: 0px; /* Add some spacing above */
+  margin-left: 28px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+  transform: translateY(-5px); /* Slightly lift the card on hover */
+}
+
